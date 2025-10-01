@@ -6,4 +6,5 @@ object Routes {
     const val FEED = "feed"
     const val PROFILE = "profile/{userId}"
     const val UPLOAD = "upload"
+    const val PAYMENT = "payment"
 }

@@ -1,0 +1,7 @@
+supabase
+neondb
+stripe
+oath2.0
+jWT bearer tokens
+sessions
+performance

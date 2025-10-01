@@ -107,4 +107,17 @@ dependencies {
 // OkHttp (usually included with Retrofit, but good to be explicit)
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+    //supabase
+    implementation("io.github.jan-tennert.supabase:gotrue-kt:2.4.0") // For Auth
+    implementation("io.github.jan-tennert.supabase:postgrest-kt:2.4.0") // Optional for DB
+    implementation("io.ktor:ktor-client-android:2.3.4")
+
+    //bcrypt
+    implementation("at.favre.lib:bcrypt:0.10.2")
+
+
+    //payment
+    implementation("com.stripe:stripe-android:20.39.0")
+
 }

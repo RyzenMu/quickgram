@@ -8,6 +8,7 @@ import com.example.quickgram.ui.auth.login.LoginScreen
 import com.example.quickgram.ui.auth.signup.SignupScreen
 import com.example.quickgram.ui.profile.ProfileScreen
 import com.example.quickgram.ui.upload.UploadScreen
+import com.example.quickgram.ui.payment.PaymentScreen
 
 
 @Composable
@@ -22,5 +23,6 @@ fun AppNavGraph(navController: NavHostController) {
             ProfileScreen(navController, userId)
         }
         composable("upload") { UploadScreen(navController) }
+        composable("payment") { PaymentScreen(navController) }
     }
 }

@@ -16,6 +16,7 @@ import com.example.quickgram.ui.auth.AuthViewModel
 import androidx.hilt.navigation.compose.hiltViewModel
 import kotlinx.coroutines.launch
 
+
 @Composable
 fun LoginScreen(
     navController: NavHostController,
